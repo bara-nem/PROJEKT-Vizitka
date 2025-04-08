@@ -49,6 +49,7 @@ p{
     margin-right: auto;
     margin-top: 150px;
     position: relative;
+    box-shadow: rgb(147, 147, 147) 5px 5px 5px;
 }
 
 .obrazek{
@@ -61,6 +62,7 @@ img{
     width: 150px;
     border-radius: 50%;
     border: 3px solid white;
+    box-shadow:rgb(147, 147, 147) 5px 5px 5px;
 }
 
 .twitter{
@@ -86,4 +88,10 @@ a{
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 700;
+}
+
+.twitter a:hover{ color:#0b7bc1;
+}
+
+.facebook a:hover{ color:#2b406e;
 }
